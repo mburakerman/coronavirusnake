@@ -4,29 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" data-emoji="🐍" />
+    <link rel="icon" data-emoji="🐍">
     <title>Coronavirusnake</title>
-
-    <script>
-        var favicon = document.querySelector("link[rel=icon]");
-        if (favicon) {
-            var emoji = favicon.getAttribute("data-emoji");
-            if (emoji) {
-                var canvas = document.createElement("canvas");
-                canvas.height = 64;
-                canvas.width = 64;
-                var ctx = canvas.getContext("2d");
-                ctx.font = "64px serif";
-                ctx.fillText(emoji, 0, 64);
-                favicon.href = canvas.toDataURL();
-            }
-        }
-    </script>
+    <script>var e = document.querySelector("link[rel=icon]"); if (e) { var t = e.getAttribute("data-emoji"); if (t) { var a = document.createElement("canvas"); a.height = 64, a.width = 64; var r = a.getContext("2d"); r.font = "64px serif", r.fillText(t, 0, 64), e.href = a.toDataURL() } }</script>
+    <link rel="stylesheet" href="/main.277ee0a6.css">
 </head>
 
 <body>
     <div id="app"> </div>
-    <script defer src="assets/main.js"></script>
+    <script defer="" src="/main.243c2632.js"></script>
 </body>
 
 </html>
